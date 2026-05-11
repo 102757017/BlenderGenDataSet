@@ -21,7 +21,7 @@ NUM_CAMERAS_PER_SCENE: 2                  # 每个场景中渲染的相机视角
 # 物体配置 (OBJECT)
 # ----------------------------------------------------------------------------
 OBJECT:
-    FILE: "./3Dmodels/obj_models/object_001.ply"  # 3D模型文件路径（支持 .ply, .obj, .stl）
+    FILE: "./3DModelDataSets/fall/models/obj_000001.ply"  # 3D模型文件路径（支持 .ply, .obj, .stl）
     
     # 单位设置：'m'(米) / 'mm'(毫米) / 'auto'(自动检测)
     # auto模式：包围盒对角线 <2m 视为米，否则视为毫米

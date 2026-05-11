@@ -8,8 +8,5 @@ cd /d %~dp0
 
 call .venv\Scripts\activate.bat
 
-
-blenderproc pip install loguru omegaconf
-blenderproc pip install git+https://github.com/thodan/bop_toolkit.git
-blenderproc quickstart
+blenderproc run ./settings/binpicking/GenDataset.py --config=./settings/binpicking/config_sample.yaml
 cmd /k echo.

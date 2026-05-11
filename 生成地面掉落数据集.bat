@@ -8,8 +8,5 @@ cd /d %~dp0
 
 call .venv\Scripts\activate.bat
 
-
-blenderproc pip install loguru omegaconf
-blenderproc pip install git+https://github.com/thodan/bop_toolkit.git
-blenderproc quickstart
+blenderproc run ./settings/bop_object_physics_positioning/main.py ./3DModelDataSets fall ./cctextures ./output
 cmd /k echo.
